@@ -18,5 +18,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/commitlint.test.js"
-  }
+  },
+  "gitHead": "8647a057948dfc850397e8682bdaba7e291f4919"
 }
