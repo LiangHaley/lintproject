@@ -1,6 +1,5 @@
 {
   "name": "lintproject",
-  "version": "1.0.0",
   "private": "true",
   "description": "集成commitlint eslint stylelint markdownlint 规范的项目",
   "scripts": {
