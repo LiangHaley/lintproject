@@ -5,7 +5,6 @@
   "scripts": {
     "test": "lerna run test",
     "init":"pnpm intsall",
-    "publish": "lerna publish",
     "clean":"lerna clean",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
