@@ -1,0 +1,51 @@
+{
+  "name": "lintproject",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "集成commitlint eslint stylelint markdownlint 规范的项目",
+  "scripts": {
+    "test": "lerna run test",
+    "init":"pnpm intsall",
+    "publish": "lerna publish",
+    "clean":"lerna clean",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "prepare": "husky install",
+    "deploy":"bash deploy.sh",
+    "lint":"markdownlint README.md",
+    "changelog":"conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "eslint",
+    "commitlint",
+    "stylelint",
+    "markdownlint"
+  ],
+  "author": "haleyliang",
+  "license": "ISC",
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "husky": "^8.0.3",
+    "lerna": "^7.1.5",
+    "markdownlint": "^0.30.0",
+    "pnpm": "^8.6.12",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.2.2",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-zooming": "^1.1.8"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
