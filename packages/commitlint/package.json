@@ -1,10 +1,13 @@
 {
   "name": "commitlintliang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "commitlint 规范的配置",
   "keywords": [
     "commitlint"
   ],
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
   "author": "a1907911413@qq.com <biaoyan@yond-e.com>",
   "homepage": "",
   "license": "ISC",
