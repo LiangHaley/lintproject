@@ -8,5 +8,6 @@
   "author": "a1907911413@qq.com <biaoyan@yond-e.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "b9d1c0154edfd5baefa2641ed3e80f1809500e34"
 }
