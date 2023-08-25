@@ -1,5 +1,5 @@
 {
-  "name": "commitlint",
+  "name": "commitlintliang",
   "version": "1.0.0",
   "description": "commitlint 规范的配置",
   "keywords": [
@@ -8,16 +8,5 @@
   "author": "a1907911413@qq.com <biaoyan@yond-e.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/commitlint.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "node ./__tests__/commitlint.test.js"
-  },
-  "gitHead": "8647a057948dfc850397e8682bdaba7e291f4919"
+  "main": "index.js"
 }
